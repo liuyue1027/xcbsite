@@ -51,6 +51,7 @@ body {
   font-size:12px;
   color:#777;
   padding:5px 0;
+  z-index:2;
 }
 #footer .linkmap {
   height:40px;
@@ -99,17 +100,39 @@ body {
   float:right;
   width:270px;
   height:270px;
-  background:blue;
   margin-right:100px;
   margin-top:65px;
 }
 #banner .bn_description {
   width:400px;
   height:270px;
-  background:blue;
   position:absolute;
   margin-left:100px;
   margin-top:65px;
+}
+.bn_description .bn_description_label1 {
+  color: #a1aaec;
+}
+.bn_description .bn_description_label2 {
+  font-size: 45px;
+  color: #fff;
+  margin-top:20px;
+}
+.bn_description .bn_description_download {
+  border: 1px solid #fff;
+  color: #fff;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 38px;
+  padding: 5px 20px;
+  font-size: 25px;
+  text-decoration:none;
+  margin-top:50px;
+  display: inline-block;
+}
+.bn_description .bn_description_label3 {
+  color: #fff;
+  margin-top:20px;
 }
 #entrance {
   width:100%;
@@ -118,7 +141,6 @@ body {
 #entrance .tab{
   display:block;
   width:25%;
-  background:blue;
   float:left;
   height:100%;
 }
@@ -152,17 +174,15 @@ body {
   float:right;
   width:270px;
   height:270px;
-  background:blue;
   margin-right:100px;
   margin-top:65px;
 }
 #banner .bn_description {
   width:400px;
   height:270px;
-  background:blue;
   position:absolute;
   margin-left:100px;
-  margin-top:65px;
+  margin-top:85px;
 }
 #entrance {
   width:100%;
