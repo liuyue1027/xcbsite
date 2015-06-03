@@ -4,31 +4,35 @@ body {
 }
 
 #header {
-  height:55px;
+  height:70px;
   width:100%;
   min-width:900px;
   margin: 0;
   position: relative;
 }
 
-#header .toppic ,#footer .linkmap {
+#header .toppic ,#footer .linkmap ,#banner {
   max-width: 1170px;
   min-width: 980px;
   width: 80%;
   margin: 0 auto;
 }
 #header .toppic {
-  height: 55px;
+  height: 70px;
 }
 
 .toppic .logo {
   position:absolute;
+  width:250px;
+  height:70px;
+  background:url(../img/xcblogo.png) no-repeat
+  
 }
 .toppic .nav {
   float:right;
 }
 .toppic .nav .tab {
-  line-height:55px;
+  line-height:70px;
   font-size:18px;
   color:#3e3e3e;
   margin-left:10px;
@@ -46,6 +50,7 @@ body {
   width:100%;
   font-size:12px;
   color:#777;
+  padding:5px 0;
 }
 #footer .linkmap {
   height:40px;
@@ -78,7 +83,95 @@ body {
 #dust {
   width: 100%;
   height:400px;
+  position:absolute;
+  top:70px;
   background-image: -moz-linear-gradient(top, #1d2550, #0c4b9c); /* Firefox */
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1d2550), color-stop(1, #0c4b9c)); /* Saf4+, Chrome */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1d2550', endColorstr='#0c4b9c', GradientType='0'); /* IE*/
+}
+#banner {
+  z-index:1;
+  height: 400px;
+  width:980px;
+  position: relative;
+}
+#banner .bn_image {
+  float:right;
+  width:270px;
+  height:270px;
+  background:blue;
+  margin-right:100px;
+  margin-top:65px;
+}
+#banner .bn_description {
+  width:400px;
+  height:270px;
+  background:blue;
+  position:absolute;
+  margin-left:100px;
+  margin-top:65px;
+}
+#entrance {
+  width:100%;
+  height:200px;
+}
+#entrance .tab{
+  display:block;
+  width:25%;
+  background:blue;
+  float:left;
+  height:100%;
+}
+#entrance .tab1 {
+  background-image: -moz-linear-gradient(top, #3d7fd8, #8c69ff); /* Firefox */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3d7fd8), color-stop(1, #8c69ff)); /* Saf4+, Chrome */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d7fd8', endColorstr='#8c69ff', GradientType='0'); /* IE*/
+}
+#entrance .tab2 {
+  background-image: -moz-linear-gradient(top, #dead6d, #ec944d); /* Firefox */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dead6d), color-stop(1, #ec944d)); /* Saf4+, Chrome */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dead6d', endColorstr='#ec944d', GradientType='0'); /* IE*/
+}
+#entrance .tab3 {
+  background-image: -moz-linear-gradient(top, #80d13e, #3ed18b); /* Firefox */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #80d13e), color-stop(1, #3ed18b)); /* Saf4+, Chrome */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80d13e', endColorstr='#3ed18b', GradientType='0'); /* IE*/
+}
+#entrance .tab4 {
+  background-image: -moz-linear-gradient(top, #fae2c5, #e9b980); /* Firefox */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fae2c5), color-stop(1, #e9b980)); /* Saf4+, Chrome */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fae2c5', endColorstr='#e9b980', GradientType='0'); /* IE*/
+}
+#banner {
+  z-index:1;
+  height: 400px;
+  width:980px;
+  position: relative;
+}
+#banner .bn_image {
+  float:right;
+  width:270px;
+  height:270px;
+  background:blue;
+  margin-right:100px;
+  margin-top:65px;
+}
+#banner .bn_description {
+  width:400px;
+  height:270px;
+  background:blue;
+  position:absolute;
+  margin-left:100px;
+  margin-top:65px;
+}
+#entrance {
+  width:100%;
+  height:200px;
+  border-top:1px solid #fff;
+  border-bottom:1px solid #fff;
+  margin-bottom:50px;
+}
+#entrance .tab{
+  display:block;
+  width:25%;
 }
